@@ -1,0 +1,62 @@
+.login-page {
+    .gradient {
+        background-image: linear-gradient(to bottom right, #525252, #FFFFFF);
+        opacity: 0.85;
+        height: 100vh;
+        display: flex;
+    }
+    
+    .login-bgimage{
+        background-image: url("../../assets/images/background.jpg");
+        background-size: cover;
+    }
+    
+    .center{
+        margin:auto;
+    }
+    
+    .loginform{
+        z-index: 10;
+        margin: auto;
+        width: 340px;
+    }
+    
+    label{
+        color:white;
+    }
+
+    h2 {
+        color: white;
+        margin-bottom: 2rem;
+    }
+
+    .login-btn {
+        background: #525252;
+        width: 100%;
+        border-color: #FFFFFF !important;
+    }
+
+    .forgot-pwd {
+        font-size: small;
+        color: white;
+    }
+
+    .loading-overlay{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+        z-index: 2; /* incase there is a display stack */
+        cursor: pointer;
+
+        display: flex;
+        gap: 1em;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

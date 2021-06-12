@@ -1,0 +1,11 @@
+.alerts {
+    position: absolute;
+    z-index: 99;
+    right: 20px;
+    top: 66px;
+}
+.alert {
+    max-width: 400px;
+    min-height: 80px;
+    width: 98vw;
+}
